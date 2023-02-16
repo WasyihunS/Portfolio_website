@@ -16,17 +16,17 @@ body {
     width: 100%;
     position: absolute;
     height: 72px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     display: flex;
     justify-content: space-between;
     padding: 26px 164px 26px 155px;
     align-items: center;
-    background: #ffffff;
+    background: #fff;
 }
 
 .M-logo {
-    font-family: "Poppins";
+    font-family: "Poppins"sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -35,14 +35,11 @@ body {
 }
 
 .nav_toggle {
-    list-style-type: none;
-    font-family: "Poppins";
+    font-family: "Poppins"sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: #344563;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
 
 #menu-list {
@@ -61,7 +58,7 @@ body {
 }
 
 .info {
-    font-family: "Poppins";
+    font-family: "Poppins"sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -72,7 +69,7 @@ body {
 }
 
 .info-desc {
-    font-family: "Poppins";
+    font-family: "Poppins"sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -82,7 +79,7 @@ body {
 }
 
 .link {
-    font-family: "Poppins";
+    font-family: "Poppins"sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
