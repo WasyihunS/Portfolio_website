@@ -182,3 +182,18 @@ body {
     left: 690.25px;
     top: 193px;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        position: absolute;
+        height: 72px;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 26px 164px 26px 155px;
+        align-items: center;
+        background: #fff;
+    }
+}
