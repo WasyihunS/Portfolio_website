@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Portfolio: Mobile First Setup  Project</b></h3>
+  <h3><b>Finish mobile version Project</b></h3>
 
 </div>
 
@@ -32,11 +32,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Mobile First Setup Project] <a name="about-project"></a>
+# 📖 [Finish mobile version Project] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Portfolio: Mobile First Setup Project]** is a websit designed to excerces the ability to use basic HTML CSS as a part of Microverse Curicullum
+**[Finish mobile version Project]** is a websit designed in building a portfolio website, int this project I create the mobile website section where it will list my portfolio projects.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -152,7 +152,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Create a reponsive web page based on Figma ]**
+- [ ] **[Create a reponsive mobile section website page ]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
