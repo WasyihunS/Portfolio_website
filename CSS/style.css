@@ -58,14 +58,13 @@ body {
 }
 
 .info {
-    font-family: "Poppins"sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    color: #091e42;
-    margin-bottom: 12px;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    text-align: justify;
 }
 
 .info-desc {
@@ -78,13 +77,32 @@ body {
     margin-bottom: 12px;
 }
 
-.link {
+.Social {
     font-family: "Poppins"sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
+}
+
+.Social h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+}
+
+.Social ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.Social li {
+    list-style: none;
+    padding-right: 2%;
 }
 
 .Ellipse3 {
