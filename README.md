@@ -152,7 +152,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Add Responsivenes on the Desktop version as well as moobile version]**
+- [ ] **[Create a reponsive web page based on Figma ]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
