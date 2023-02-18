@@ -43,6 +43,8 @@ body {
 }
 
 .Body_content-title {
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin: auto;
   padding-top: 10%;
@@ -87,4 +89,24 @@ body {
 .Body_content-title li {
   list-style: none;
   padding-right: 2%;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .Body_content-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    text-align: justify;
+  }
+
+  .Body_content-title {
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 20%;
+
+  }
 }
