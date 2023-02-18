@@ -17,14 +17,11 @@ body {
 
 .navbar {
   display: flex;
-  top: 0;
-  left: 0;
   justify-content: space-between;
   padding-top: 6%;
   padding-left: 8%;
   padding-right: 8%;
   align-items: center;
-  z-index: 1000;
   padding-bottom: 4%;
   background-color: white;
 }
@@ -37,20 +34,18 @@ body {
 }
 
 .Body_content {
+  position: absolute;
   background-image: url(images/background_imag_block_1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 70px;
   background-color: white;
+  height: 916px;
 }
 
 .Body_content-title {
   display: flex;
-  font-weight: 700px;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.37px;
   flex-direction: column;
   width: 80%;
   margin: auto;
@@ -62,9 +57,12 @@ body {
 .Body_content-title h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400px;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 15px;
   color: #172b4d;
   text-align: justify;
 }
@@ -77,6 +75,9 @@ body {
   line-height: 24px;
   color: #344563;
   text-align: justify;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 15px
 }
 
 .Body_content-title h2 {
