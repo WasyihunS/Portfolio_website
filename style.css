@@ -55,19 +55,27 @@ body {
 }
 
 .Body_content-title h1 {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-top: 15px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 15px;
   color: #172b4d;
+  flex-grow: 0;
+  order: 0;
   text-align: justify;
 }
 
 .Body_content-title p {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -75,9 +83,8 @@ body {
   line-height: 24px;
   color: #344563;
   text-align: justify;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-top: 15px
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .Body_content-title h2 {
