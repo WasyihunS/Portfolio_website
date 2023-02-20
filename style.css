@@ -41,7 +41,7 @@ body {
   gap: 12px;
   position: absolute;
   background-image: url(images/background_imag_block_1.png);
-  background-position: center;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 70px;
