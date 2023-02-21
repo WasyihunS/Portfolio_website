@@ -12,60 +12,25 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio: Mobile First Setup Project] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[Portfolio: Mobile First Setup Project]** This Project is created purposely to learn how to build Portfolio. It's a collections of projects I had worked on, skills acquired; and the knowledge I had acquired so far.
 
-**[Portfolio: Mobile First Setup Project]** is a websit designed to excerces the ability to use basic HTML CSS as a part of Microverse Curicullum
+## 🛠 Built With <a name="built-with">VsCode</a>
 
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Styling</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Testing</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">Linter</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+<a name="built-with">HTML</a>
+<a name="built-with">CSS</a>
 
 ### Key Features <a name="key-features"></a>
 
@@ -75,16 +40,6 @@
 - **[CSS for Styling the web page]**
 - **[Linter to test the code]**
 - **[Figma as excerces to be implemented as web page(UI)]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,35 +53,13 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+- Text editor
+- GitHub
+- Git -Browser
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-### Install
-
-Install this project with:
-
-### Usage
-
-To run the project, execute the following command:
-
-### Run tests
-
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,8 +70,9 @@ Example:
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
+👤 **Wasyihun Sema**
 
-- GitHub: [@githubhandle](https://github.com/WasyihunSema)
+- GitHub: [@githubhandle](https://github.com/Wasyihun Sema)
 - Twitter: [@twitterhandle](https://twitter.com/Wasyihun Sema)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Wasyihun Sema)
 
@@ -184,23 +118,9 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank for the reviwers who review my Project and Microverse for giving this chance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,11 +141,3 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

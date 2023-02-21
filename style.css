@@ -26,12 +26,7 @@ body {
   background-color: white;
 }
 
-.menu_icon {
-  width: 30px;
-  height: 3px;
-  background-color: #6070ff;
-  margin: 8px 0;
-}
+
 
 .Body_content {
   display: flex;
@@ -111,7 +106,7 @@ body {
   .Body_content-title {
     width: 80%;
     margin: auto;
-    padding-top: 10%;
+    padding-top: 30%;
     padding-bottom: 20%;
 
   }
@@ -120,9 +115,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 52px;
     color: #172b4d;
+    margin-bottom: 5px;
+    width: 80%;
     text-align: justify;
   }
 
@@ -135,5 +132,41 @@ body {
     align-items: center;
     padding-bottom: 4%;
     background-color: white;
+  }
+
+  .Body_content-title p {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+    text-align: justify;
+    margin-top: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .Body_content-title ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  .Body_content-title li {
+    list-style: none;
+    padding-right: 2%;
+    margin-right: 15px;
+  }
+
+  .menu_icon {
+    width: 30px;
+    height: 3px;
+    background-color: #6070ff;
+    margin: 8px 0;
   }
 }
