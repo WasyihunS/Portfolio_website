@@ -120,7 +120,7 @@ body {
   border-radius: 20px;
   margin-top: 10%;
   margin-bottom: 10%;
-  height: 600px;
+  height: 552px;
 }
 
 .works-main h2 {
@@ -245,9 +245,6 @@ body {
   font-size: 40px;
   color: #172b4d;
 }
-
-
-
 
 .frame {
   width: 80%;
@@ -378,7 +375,9 @@ hr {
     padding-right: 5%;
     background-color: white;
     margin-top: 10%;
-    height: 522px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
     border-radius: 8px;
     flex: none;
     order: 0;
