@@ -120,7 +120,7 @@ body {
   border-radius: 20px;
   margin-top: 10%;
   margin-bottom: 10%;
-  height: 552px;
+  height: 600px;
 }
 
 .works-main h2 {
@@ -304,4 +304,99 @@ body {
 
 hr {
   color: #dfe1e6;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .Body_content-title {
+    margin: auto;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    height: 600px;
+
+  }
+
+  .Body_content_title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    color: #172B4D;
+    align-items: center;
+    text-align: justify;
+    width: 400px;
+    height: 150px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    padding-bottom: 4%;
+    background-color: white;
+  }
+
+  .Body_content_title p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    text-align: justify;
+    flex: none;
+    margin-top: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .Body_content_title ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 0;
+  }
+
+  .Body_content_title li {
+    list-style: none;
+    padding-right: 2%;
+    margin-right: 15px;
+  }
+
+  .works-main {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 522px;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+  }
+
+  .btn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    width: 160px;
+    height: 40px;
+  }
 }
