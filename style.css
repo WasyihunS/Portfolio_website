@@ -24,7 +24,7 @@ body {
   background-color: white;
 }
 
-.body_content {
+.Body_content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
