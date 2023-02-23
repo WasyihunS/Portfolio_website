@@ -24,8 +24,6 @@ body {
   background-color: white;
 }
 
-
-
 .body_content {
   background-image: url(images/background_imag_block_1.png);
   background-position: center;
@@ -36,7 +34,7 @@ body {
 
 }
 
-.Body_content_title {
+.Body_content-title {
   width: 80%;
   margin: auto;
   padding-top: 10%;
@@ -44,7 +42,7 @@ body {
   height: 522px;
 }
 
-.Body_content_title h1 {
+.Body_content-title h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -56,7 +54,7 @@ body {
   text-align: justify;
 }
 
-.Body_content_title p {
+.Body_content-title p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +66,7 @@ body {
   margin-right: 6px;
 }
 
-.Body_content_title h4 {
+.Body_content-title h4 {
   flex: none;
   flex-grow: 0;
   font-family: 'Poppins', sans-serif;
@@ -79,13 +77,13 @@ body {
 
 }
 
-.Body_content_title ul {
+.Body_content-title ul {
   display: flex;
   align-items: center;
   padding-left: 0;
 }
 
-.Body_content_title li {
+.Body_content-title li {
   list-style: none;
   padding-right: 2%;
 }
@@ -227,7 +225,7 @@ body {
   border-top-right-radius: 70px;
 }
 
-.Body_content_title h3 {
+.Body_content-title h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -301,7 +299,7 @@ hr {
 
   }
 
-  .Body_content_title h1 {
+  .Body_content-title h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -330,7 +328,7 @@ hr {
     background-color: white;
   }
 
-  .Body_content_title p {
+  .Body_content-title p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -344,14 +342,14 @@ hr {
     margin-right: 6px;
   }
 
-  .Body_content_title ul {
+  .Body_content-title ul {
     display: flex;
     align-items: center;
     padding-left: 0;
     margin-top: 0;
   }
 
-  .Body_content_title li {
+  .Body_content-title li {
     list-style: none;
     padding-right: 2%;
     margin-right: 15px;
