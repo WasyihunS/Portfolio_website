@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #e5e5e5;
+}
+
+.My_logo {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4%;
+  padding-left: 8%;
+  padding-right: 8%;
+  align-items: center;
+  padding-bottom: 2%;
+  background-color: white;
+}
+
+.menu_icon {
+  width: 30px;
+  height: 3px;
+  background-color: #6070ff;
+  margin: 8px 0;
+}
+
+.Body_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 12px;
+  position: absolute;
+  background-image: url(images/background_imag_block_1.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 70px;
+  background-color: white;
+}
+
+.Body_content-title {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 20%;
+
+}
+
+.Body_content-title h1 {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  left: 60px;
+  color: #172b4d;
+  flex-grow: 0;
+  order: 0;
+  text-align: justify;
+}
+
+.Body_content-title p {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #344563;
+  text-align: justify;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.Body_content-title h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.Body_content-title ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.Body_content-title li {
+  list-style: none;
+  padding-right: 2%;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .Body_content-title {
+    width: 80%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 20%;
+
+  }
+
+  .Body_content-title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    text-align: justify;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    padding-bottom: 4%;
+    background-color: white;
+  }
+}
