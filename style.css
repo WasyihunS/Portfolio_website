@@ -104,7 +104,6 @@ body {
   padding-right: 2%;
 }
 
-/* -------------------finish_mobile_version------------------ */
 .works {
   background: #e5e5e5;
   padding-top: 10%;
@@ -124,15 +123,17 @@ body {
   border-radius: 20px;
   margin-top: 10%;
   margin-bottom: 10%;
+  height: 552px;
 }
 
 .works-main h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #172b4d;
+  font-size: 32px;
 }
 
-.workds-Tony {
+.works-Tony {
   display: flex;
   align-items: center;
   padding-left: 0;
@@ -162,13 +163,13 @@ body {
   padding-bottom: 5px;
 }
 
-.fram li {
+.frame li {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.workds-Tony li:first-child {
+.works-Tony li:first-child {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -240,7 +241,7 @@ body {
   border-top-right-radius: 70px;
 }
 
-.Body_content-title h3 {
+.Body_content_title h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -248,25 +249,23 @@ body {
   color: #172b4d;
 }
 
-
-
-.fram {
+.frame {
   width: 80%;
   margin: auto;
   margin-top: -20%;
   padding-bottom: 30%;
 }
 
-.fram ul {
+.frame ul {
   padding: 0;
 }
 
-.chevron {
+.chev {
   width: 20px;
   height: 15px;
 }
 
-.fram h4 {
+.frame h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -277,7 +276,7 @@ body {
   color: #000;
 }
 
-.fram div {
+.frame div {
   display: flex;
   align-items: center;
   margin-top: 10px;
@@ -285,7 +284,7 @@ body {
   border-radius: 8px;
 }
 
-.fram h5 {
+.frame h5 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   padding-left: 10px;
@@ -297,7 +296,7 @@ body {
   color: #253858;
 }
 
-.elipse {
+.eclipse {
   width: 15%;
   padding-left: 12px;
   display: flex;
